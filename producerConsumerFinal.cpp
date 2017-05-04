@@ -78,7 +78,7 @@ int main() {
 
   	//Create the threads
   	pthread_create(&con, NULL, consumer, NULL);	
-  	//sleep(1);
+  	sleep(1);
   	pthread_create(&pro, NULL, producer, NULL);	
   	
   	//Join Threads
